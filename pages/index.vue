@@ -23,7 +23,7 @@
         <h1 class="font-montserrat">
           {{ $t("h1-home") }}
           <span class="block"
-            ><img class="inline" src="./assets/imgs/panot-white.webp" alt="" />
+            ><img class="inline" src="../assets/imgs/panot-white.webp" alt="" />
           </span>
         </h1>
         <p class="font-monserrat">
