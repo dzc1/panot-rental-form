@@ -1,3 +1,26 @@
 {
-  "rewrites": []
+  "version": 2,
+  "name": "panot-rental-form",
+  "builds": [
+    {
+      "src": "nuxt.config.ts",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {
+        "serverFiles": ["server/**"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "STRIPE_PK": "@stripe_pk",
+    "STRIPE_SK": "@stripe_sk",
+    "APP_URL": "@app_url",
+    "PRODUCTION_URL": "@production_url",
+    "DEVELOPMENT_URL": "@development_url"
+  }
 }
