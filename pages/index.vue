@@ -42,7 +42,8 @@
         <div
           :class="['overlay-content', { 'animate-slide-in': animateOverlay }]"
         >
-          <Form @closeFunction="overlayFunc" />
+          <!-- <Form @closeFunction="overlayFunc" /> -->
+          <FormTwo />
         </div>
       </div>
     </div>
