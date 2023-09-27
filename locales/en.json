@@ -8,7 +8,9 @@
   "comp-location-city-sotogrande": "Sotogrande, Spain",
   "comp-location-city-sotogrande-info": "Explore Sotogrande's hidden gems and iconic landmarks with Panot on two wheels, creating memories that will last a lifetime.",
   "comp-location-city-fuerteventura": "Fuerteventura, Spain",
-  "comp-location-city-fuerteventura-info": " Immerse yourself in Fuerteventura's unique culture and natural wonders with Panot as you pedal through stunning nature reserves.",
+  "comp-location-city-fuerteventura-info": "Immerse yourself in Fuerteventura's unique culture and natural wonders with Panot as you pedal through stunning nature reserves.",
+  "comp-location-city-costaBlanca": "Costa Blanca, Spain",
+  "comp-location-city-costaBlanca-info": "Dive into the enchanting charm of Costa Blanca, Spain with Panot as you cycle through its breathtaking coastal landscapes",
   "days-tab": "Choose Days",
   "sotogrande": [
     {
@@ -44,6 +46,20 @@
     {
       "name": "14 days or more (30% off) for €20/day",
       "timeFrame": "14 days"
+    }
+  ],
+  "costaBlanca": [
+    {
+      "name": "Rental Bike for 1 Day - €45 per Day",
+      "timeFrame": "1 Day Rental"
+    },
+    {
+      "name": "Rental Bike for 3 Days - €38.25 per Day - 15% Discount",
+      "timeFrame": "3 Day Rental"
+    },
+    {
+      "name": "Rental Bike for 5 Days - €36 per Day - 20% Discount",
+      "timeFrame": "5 Day Rental"
     }
   ],
   "previous-cta": "Previous",

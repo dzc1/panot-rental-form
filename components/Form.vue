@@ -92,7 +92,6 @@
           @closeUp="emitCloseUp"
           @payButton="handleCheckoutTwo"
         />
-        {{ formSteps.selectedBike }}
       </div>
     </template>
   </div>
@@ -149,6 +148,29 @@ let formSteps = reactive({
         stripeId: "price_1NukHgI5XtUC28eOpnnMkxuS",
       },
     ],
+    costaBlanca: [
+      {
+        id: 1,
+        name: t("costaBlanca[0].name"),
+        timeFrame: t("costaBlanca[0].timeFrame"),
+        paymentLink: "https://pay.panotmobility.com/b/6oEg1i8GOfL5cQE9B3",
+        stripeId: "price_1Nuw8mI5XtUC28eOEj5rsi9A",
+      },
+      {
+        id: 2,
+        name: t("costaBlanca[1].name"),
+        timeFrame: t("costaBlanca[1].timeFrame"),
+        paymentLink: "https://pay.panotmobility.com/b/bIY8yQ5uC7ezaIw6oQ",
+        stripeId: "price_1NuwAZI5XtUC28eOSDLp3rSL",
+      },
+      {
+        id: 3,
+        name: t("costaBlanca[2].name"),
+        timeFrame: t("costaBlanca[2].timeFrame"),
+        paymentLin: "https://pay.panotmobility.com/b/bIY16o0aifL517WaF5",
+        stripeId: "price_1NuwBJI5XtUC28eOsGGJsU3d",
+      },
+    ],
     Fuerteventura: [
       {
         id: 1,
@@ -180,18 +202,18 @@ let formSteps = reactive({
       },
     ],
   },
-  fullName: "Diego Zito",
+  fullName: "",
   address: {
-    address: "2723 Center Court Dr",
-    city: "Weston",
-    state: "FL",
-    country: "USA",
-    postalCode: "08013",
+    address: "",
+    city: "",
+    state: "",
+    country: "",
+    postalCode: "",
   },
-  passportNumber: "Y4795940V",
-  email: "diegozito.m@gmail.com",
+  passportNumber: "",
+  email: "",
   signature: null,
-  phoneContact: "+34699885435",
+  phoneContact: "",
 });
 
 const handleCheckoutTwo = async () => {

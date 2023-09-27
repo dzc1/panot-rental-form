@@ -12,7 +12,7 @@
     /></span>
   </div>
   <div class="flex flex-wrap justify-center -mx-4">
-    <div class="w-full md:w-1/2 lg:w-auto px-4 xl:px-10 mb-4 md:mb-8">
+    <!-- <div class="w-full md:w-1/2 lg:w-auto px-4 xl:px-10 mb-4 md:mb-8">
       <div
         class="max-w-sm mx-auto h-full py-6 px-6 bg-white border border-gray-200 rounded-lg"
       >
@@ -31,8 +31,8 @@
           </button>
         </div>
       </div>
-    </div>
-    <div class="w-full md:w-1/2 lg:w-auto px-4 xl:px-10 mb-4 md:mb-8">
+    </div> -->
+    <!-- <div class="w-full md:w-1/2 lg:w-auto px-4 xl:px-10 mb-4 md:mb-8">
       <div
         class="max-w-sm mx-auto h-full py-6 px-6 bg-white border border-gray-200 rounded-lg"
       >
@@ -47,7 +47,27 @@
             @click="selectCity('Fuerteventura')"
             class="bg-black text-white w-4/6 rounded-lg p-3 mt-6"
           >
-            Fuerteventura
+            Costa Blanca
+          </button>
+        </div>
+      </div>
+    </div> -->
+    <div class="w-full md:w-1/2 lg:w-auto px-4 xl:px-10 mb-4 md:mb-8">
+      <div
+        class="max-w-sm mx-auto h-full py-6 px-6 bg-white border border-gray-200 rounded-lg"
+      >
+        <div class="max-w-2xs mx-auto text-center">
+          <h5 class="text-2xl font-montserrat text-gray-900 mb-3">
+            {{ $t("comp-location-city-costaBlanca") }}
+          </h5>
+          <p class="text-black font-monserrat h-3/6">
+            {{ $t("comp-location-city-costaBlanca-info") }}
+          </p>
+          <button
+            @click="selectCity('costaBlanca')"
+            class="bg-black text-white w-4/6 rounded-lg p-3 mt-6"
+          >
+            Costa Blanca
           </button>
         </div>
       </div>

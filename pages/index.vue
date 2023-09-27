@@ -36,7 +36,7 @@
 
     <div v-if="showOverlay" class="overlay">
       <div
-        class="w-4/5 sm:w-11/12 md:w-3/4 lg:w-5/6 xl:w-85vw mt-[10%] lg:mt-[5%]"
+        class="w-4/5 sm:w-11/12 md:w-3/4 lg:w-5/6 xl:w-85vw mt-[20%] lg:mt-[10%]"
       >
         <!-- Your content goes here T-->
         <div
@@ -45,13 +45,6 @@
           <Form @closeFunction="overlayFunc" />
         </div>
       </div>
-      <!-- <div class="p-2 md:p-4 flex items-center">
-          <div
-            :class="['overlay-content', { 'animate-slide-in': animateOverlay }]"
-          >
-            <Form @closeFunction="overlayFunc" />
-          </div>
-        </div> -->
     </div>
   </section>
 </template>
