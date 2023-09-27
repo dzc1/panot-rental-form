@@ -1,0 +1,99 @@
+{
+  "hello": "Buenos dias, {name}!",
+  "language": "Lenguaje",
+  "h1-home": " Alquila una bicicleta con",
+  "p-home": "¡Descubre tus alrededores alquilando una bici de Panot, el servicio más top de alquiler de bicicletas exclusivamente para hoteles! Ya sea que quieras explorar las atracciones locales, disfrutar de un paseo relajado por la playa o simplemente desplazarte hasta lugares cercanos, nuestras bicis de alta calidad están listas para hacer tu estancia ¡más inolvidable que nunca!",
+  "cta-home-get-started": "Empezar",
+  "comp-location-informational-tab": "Ubicación",
+  "comp-location-city-sotogrande": "Sotogrande, España",
+  "comp-location-city-sotogrande-info": "Explora las joyas ocultas y los lugares emblemáticos de Sotogrande con Panot sobre dos ruedas y crea recuerdos que durarán toda la vida.",
+  "comp-location-city-fuerteventura": "Fuerteventura, España",
+  "comp-location-city-fuerteventura-info": "Sumérgete en la cultura única de Fuerteventura y en sus maravillas naturales con Panot mientras pedaleas por impresionantes reservas naturales.",
+  "days-tab": "Elegir días",
+  "sotogrande": [
+    {
+      "name": "½ día (4 horas) por €30",
+      "timeFrame": "½ día"
+    },
+    {
+      "name": "1 día (8 horas) por €40",
+      "timeFrame": "1 día"
+    },
+    {
+      "name": "7 días (20% de descuento) por €32/día",
+      "timeFrame": "7 días"
+    },
+    {
+      "name": "14 días o más (30% de descuento) por €28/día",
+      "timeFrame": "14 días"
+    }
+  ],
+  "fuerteventura": [
+    {
+      "name": "½ día (4 horas) por €24",
+      "timeFrame": "½ día"
+    },
+    {
+      "name": "1 día (8 horas) por €29",
+      "timeFrame": "1 día"
+    },
+    {
+      "name": "7 días (20% de descuento) por €23/día",
+      "timeFrame": "7 días"
+    },
+    {
+      "name": "14 días o más (30% de descuento) por €20/día",
+      "timeFrame": "14 días"
+    }
+  ],
+  "previous-cta": "Anterior",
+  "next-cta": "Siguiente",
+  "name-tab": "Nombre",
+  "name-name-label": "Nombre Completo",
+  "address-tab": "Dirección",
+  "addressForm": {
+    "address": "Dirección",
+    "city": "Ciudad",
+    "state": "Estado",
+    "country": "País",
+    "zipCode": "Código Postal"
+  },
+  "comp-id": {
+    "tab": "Pasaporte o número de identificación",
+    "formLabel": "Número de pasaporte o de documento de identidad"
+  },
+  "comp-phoneNumber": {
+    "tab": "Número de Teléfono",
+    "formLabel": "Número de Teléfono"
+  },
+  "comp-email": {
+    "tab": "Correo Electrónico",
+    "formLabel": "Correo Electrónico"
+  },
+  "comp-summary": {
+    "tab": "Resumen",
+    "formLabel": "Resumen del Formulario",
+    "city": "Ciudad",
+    "days": "Días",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "id": "Número de Pasaporte o ID",
+    "phone": "Número de Teléfono",
+    "address": "Dirección",
+    "statement": "Declaro:",
+    "statementOne": "I. Asumo la responsabilidad del eBike PANOT y los accesorios que lo acompañan (cesta y soporte para móvil) desde el momento de la entrega hasta su devolución.",
+    "statementTwo": "II. Me comprometo a usarlo con la debida diligencia, de acuerdo con sus características y uso previstos (urbano) y cumpliendo con las normas de tráfico, estando obligado a compensar a PANOT, al establecimiento y/o a terceros que proporcionaron el eBike al establecimiento por cualquier daño que pueda surgir de mi incumplimiento de tales obligaciones.",
+    "statementThree": "III. - Confirmo el estado del eBike antes de firmar este documento y que está en perfectas condiciones estéticas y técnicas, habiendo verificado su correcto funcionamiento.",
+    "statementFour": "IV. Declaro que soy consciente de que el eBike sólo puede ser utilizado por la persona designada para ese propósito por el establecimiento.",
+    "statementFiveA": "V. - Declaro que",
+    "statementFiveB": "soy consciente de que el riesgo asociado al uso del eBike no está cubierto por ningún seguro, y seré el único responsable de cualquier daño o lesión que pueda sufrir o causar a terceros durante su uso, liberando al establecimiento, a PANOT y a terceros que proporcionaron el eBike al establecimiento de cualquier responsabilidad al respecto.",
+    "statementSix": "VI. - Declaro que soy consciente de la obligación de devolver el eBike (y accesorios) en las mismas condiciones en que me fue entregado, y que los daños, pérdidas o robos del eBike no están cubiertos por ningún seguro. Me comprometo a asumir los costos de su reparación en caso de devolución en mal estado, y el precio completo de la bicicleta en caso de devolución en condiciones inservibles o no devolución.",
+    "statementSeven": "VII. - Declaro que soy consciente de que el eBike está equipado con un sistema móvil GPS, que autorizo para que PANOT pueda localizarlo en caso de pérdida o robo.",
+    "sign": "Firmar",
+    "clear": "Borrar",
+    "download": "Descargar Formulario de Confirmación",
+    "pay": "Pagar"
+  },
+  "h1-success": "Pago efectuado con éxito, gracias por alquilar tu Bicicleta con",
+  "p-success": "Recuerda que si tienes algun problema puedes ponerte en contactoc on nosotros al email hey@panotmobility.com o por telefono llamando a +34 931 033 366"
+}
