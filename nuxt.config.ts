@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "@sidebase/nuxt-pdf",
+    "@pinia/nuxt",
   ],
   runtimeConfig: {
     stripeSecret: process.env.STRIPE_SK,

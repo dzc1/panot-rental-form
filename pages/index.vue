@@ -50,7 +50,6 @@
 </template>
 
 <script setup>
-import { exportToPDF } from "#imports";
 const showOverlay = ref(false);
 const animateOverlay = ref(false);
 

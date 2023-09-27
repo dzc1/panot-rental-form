@@ -26,6 +26,11 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
+import { useCounterStore } from "../stores/counter";
+
+// Counter things:
+const nameFromCounter = useCounterStore().myName;
+console.log(nameFromCounter);
 
 const route = useRoute();
 const sessionId = ref(route.query.session_id);

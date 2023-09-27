@@ -111,6 +111,11 @@ import Phone from "../components/Form/Phone.vue";
 import Email from "../components/Form/Email.vue";
 import Summary from "../components/Form/Summary.vue";
 import { useI18n } from "vue-i18n";
+import { useFormStepsStore } from "../stores/formSteps";
+
+// form Steps Store:
+const formStepsStore = useFormStepsStore();
+console.log(formStepsStore);
 
 const { t } = useI18n(); // use as global scope
 let formSteps = reactive({
