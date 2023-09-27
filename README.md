@@ -10,7 +10,7 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
-npm install
+npm installssss
 
 # pnpm
 pnpm install
