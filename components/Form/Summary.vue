@@ -19,7 +19,9 @@
       <div class="text-left py-2">
         <p class="font-monserrat text-gray-900 mb-2">
           {{ $t("comp-summary.city") }}
-          <span class="font-semibold block">{{ formSteps.selectedCity }}</span>
+          <span class="font-semibold block">{{
+            formSteps.selectedCity ? "Costa Blanca" : "done"
+          }}</span>
         </p>
         <p class="font-monserrat text-gray-900 mb-2">
           {{ $t("comp-summary.days") }}
@@ -56,7 +58,7 @@
           </span>
         </p>
       </div>
-      <div class="text-left">
+      <!-- <div class="text-left">
         <p class="font-semibold text-gray-900">
           {{ $t("comp-summary.statement") }}
         </p>
@@ -82,7 +84,7 @@
         <p class="text-sm font-montserrat font-light mb-2">
           {{ $t("comp-summary.statementSeven") }}
         </p>
-      </div>
+      </div> -->
       <!-- <button
         v-show="!signatureDisplay"
         @click="signatureDisplay = !signatureDisplay"

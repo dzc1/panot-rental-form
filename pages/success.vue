@@ -16,8 +16,10 @@
         </p>
 
         <p>Thank you for your purchase.</p>
+        {{ formStepsStore }}
         <!-- Display session details, e.g., transaction ID -->
         <p>Transaction ID: {{ sessionId }}</p>
+        {{}}
       </div>
     </div>
   </section>
@@ -27,13 +29,16 @@
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 import { useCounterStore } from "../stores/counter";
+import { useFormStepsStore } from "../stores/formSteps";
 
 // Counter things:
-const nameFromCounter = useCounterStore().myName;
-console.log(nameFromCounter);
+
+const formStepsStore = useFormStepsStore().formSteps;
+console.log(formStepsStore);
 
 const route = useRoute();
 const sessionId = ref(route.query.session_id);
+console.log(sessionId);
 
 onMounted(async () => {
   if (sessionId.value) {

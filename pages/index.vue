@@ -11,7 +11,7 @@
           </label>
           <div class="flex items-center justify-center">
             <select
-              class="w-1/4 py-2 px-4 text-sm text-black font-monserrat border border-gray-200 focus:border-green-600 focus:outline-green-600 rounded-lg"
+              class="w-1/3 py-2 px-4 text-sm text-black font-monserrat border border-gray-200 focus:border-green-600 focus:outline-green-600 rounded-lg"
               id="locale-select"
               v-model="$i18n.locale"
             >
@@ -36,14 +36,14 @@
 
     <div v-if="showOverlay" class="overlay">
       <div
-        class="w-4/5 sm:w-11/12 md:w-3/4 lg:w-5/6 xl:w-85vw mt-[20%] lg:mt-[10%]"
+        class="w-4/5 sm:w-11/12 md:w-3/4 lg:w-5/6 xl:w-85vw mt-[0%] lg:mt-[10%]"
       >
         <!-- Your content goes here T-->
         <div
           :class="['overlay-content', { 'animate-slide-in': animateOverlay }]"
         >
-          <Form @closeFunction="overlayFunc" />
-          <!-- <FormTwo /> -->
+          <!-- <Form @closeFunction="overlayFunc" /> -->
+          <FormTwo @closeFunction="overlayFunc" />
         </div>
       </div>
     </div>

@@ -108,6 +108,7 @@ export const useFormStepsStore = defineStore("formSteps", () => {
   });
 
   const nextStep = () => {
+    console.log("Next Step");
     formSteps.step++;
   };
 
