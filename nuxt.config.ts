@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     stripeSecret: process.env.STRIPE_SK,
+    stripeWebhookSecret: process.env.STRIPE_WEBHOOK_SECRET,
     productionSuccessURL: process.env.PRODUCTION_URL,
     developmentSuccessURL: process.env.DEVELOPMENT_URL,
     public: {
