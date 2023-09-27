@@ -37,17 +37,17 @@ const route = useRoute();
 const sessionId = ref(route.query.session_id);
 console.log(sessionId);
 
-onMounted(async () => {
-  if (sessionId.value) {
-    const response = await fetch(
-      `/api/getTransactionDetails/${sessionId.value}`
-      // `${sessionId.value}`
-    );
-    const data = await response.json();
-    // console.log(data);
-    // Handle the data, update other refs or reactive properties
-  }
-});
+// onMounted(async () => {
+//   if (sessionId.value) {
+//     const response = await fetch(
+//       `/api/getTransactionDetails/${sessionId.value}`
+//       // `${sessionId.value}`
+//     );
+//     const data = await response.json();
+//     // console.log(data);
+//     // Handle the data, update other refs or reactive properties
+//   }
+// });
 </script>
 
 <style>
