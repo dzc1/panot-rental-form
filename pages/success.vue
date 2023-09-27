@@ -16,7 +16,7 @@
         </p>
 
         <p>Thank you for your purchase.</p>
-        {{ formStepsStore }}
+        <!-- <p>Name: {{ formStepsStore.fullName }}</p> -->
         <!-- Display session details, e.g., transaction ID -->
         <p>Transaction ID: {{ sessionId }}</p>
         {{}}
@@ -28,11 +28,9 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { useCounterStore } from "../stores/counter";
 import { useFormStepsStore } from "../stores/formSteps";
 
 // Counter things:
-
 const formStepsStore = useFormStepsStore().formSteps;
 console.log(formStepsStore);
 

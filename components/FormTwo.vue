@@ -90,7 +90,7 @@
           :formSteps="formSteps"
           @signatureCaptured="submitForm"
           @closeUp="emitCloseUp"
-          @payButton="handleCheckoutTwo"
+          @payButton="handleCheckoutThree"
         />
       </div>
     </template>
@@ -131,9 +131,22 @@ const handleCheckoutTwo = async () => {
   console.log(res);
 };
 
-const nextStepTwo = () => {
-  console.log("next");
-  formStepsStore.step++;
+const handleCheckoutThree = async () => {
+  const res = await $fetch("/api/cart", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      products: {
+        default_price: formSteps.selectedBike.stripeId,
+        quantity: 1,
+      },
+      formSteps: formSteps, // send the entire formSteps object
+    }),
+  });
+  window.location = res.url;
+  console.log(res);
 };
 
 const nextStep = () => {
