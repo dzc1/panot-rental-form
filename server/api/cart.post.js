@@ -40,8 +40,8 @@ Selected City: ${body.formSteps.selectedCity ? "Costa Blanca" : "Costa Blanca"}
 
   const session = await stripe.checkout.sessions.create({
     cancel_url: "http://localhost:3000", // Again, you might also want to set this conditionally for production and development environments
-    success_url: `${successUrl}/${body.formSteps.fullName}`,
-    //success_url: "https://panot-rental-form.vercel.app",
+    // success_url: `${successUrl}/${body.formSteps.fullName}`,
+    success_url: "https://panot-rental-form.vercel.app/congratulations",
     mode: "payment",
     line_items: lineItems,
     invoice_creation: {
