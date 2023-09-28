@@ -18,20 +18,19 @@
         <p>Thank you for your purchase.</p>
         <!-- <p>Name: {{ formStepsStore.fullName }}</p> -->
         <!-- Display session details, e.g., transaction ID -->
-        <p>Transaction ID: {{ sessionId }}</p>
+        <!-- <p>Transaction ID: {{ sessionId }}</p> -->
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref } from "vue";
-import { useRoute } from "vue-router";
-import { useFormStepsStore } from "../stores/formSteps";
+// import { ref } from "vue";
+// import { useRoute } from "vue-router";
 
-const route = useRoute();
-const sessionId = ref(route.query.session_id);
-console.log(sessionId);
+// const route = useRoute();
+// const sessionId = ref(route.query.session_id);
+// console.log(sessionId);
 </script>
 
 <style>
