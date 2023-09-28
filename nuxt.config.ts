@@ -21,4 +21,10 @@ export default defineNuxtConfig({
       Monserrat: [100, 300, 400, 700],
     },
   },
+  routeRules: {
+    // all routes (by default) will be revalidated every 60 seconds, in the background
+    "/**": { isr: 60 },
+    // Don't add any /app/** URLs to the sitemap.xml, app renders on client side.
+    "/app/**": { ssr: false, isr: false },
+  },
 });
